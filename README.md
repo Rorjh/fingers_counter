@@ -13,9 +13,16 @@ git clone https://github.com/Rorjh/fingers_counter.git
 ```console
 virtualenv venv
 ```
-3. Activate the environment:\
+3. Activate the environment:
 ```console
 source venv/Scripts/activate     # Windows
 source venv/bin/activate         # Linux
 ```
-4. 
+4. Install dependencies:
+```console
+pip install -r requirements.txt
+```
+5. Run the program:
+```console
+python finger_counter.py
+```
